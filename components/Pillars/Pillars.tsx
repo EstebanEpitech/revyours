@@ -78,7 +78,7 @@ const Pillars = () => {
                        className={styles.svg}/>
 
                 <div className={styles.svgTitle}>Diversité</div>
-                <div className={styles.svgText}> Vous pouvez demander des reviews dans plus d'une dizaine de langues.
+                <div className={styles.svgText}> Vous pouvez demander des reviews dans plus d&apos;une dizaine de langues.
                 </div>
             </div>
         </div>
