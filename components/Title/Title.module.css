@@ -1,0 +1,148 @@
+.content {
+}
+
+.titleBox {
+    width: 70%;
+    margin-inline: auto;
+    margin-bottom: 50px;
+}
+
+.centerBox {
+    margin: 0;
+}
+
+.title {
+    font-size: 88px;
+    font-weight: 1000;
+    -webkit-text-stroke: 0.7px var(--color-white);
+    -webkit-text-fill-color: transparent;
+    font-family: "Roboto", sans-serif;
+    line-height: 1;
+    letter-spacing: -2px;
+    transition: all 0.3s ease;
+}
+
+.small {
+    font-size: 78px;
+}
+
+.center {
+    font-size: 78px;
+    text-align: center;
+}
+
+.mix {
+    font-weight: 1000;
+    background-image: -webkit-linear-gradient(0deg, rgba(22, 72, 166, 0.75) 20%, #00060E 80%);
+    -webkit-background-clip: text;
+    -webkit-text-stroke: 1px var(--color-white);
+    
+}
+
+.anim {
+    animation: openclose 5s ease-in-out infinite;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 1500px) {
+    .title {
+        font-size: 75px;
+    }
+    .small {
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .title {
+        font-size: 65px;
+    }
+    .small {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .title {
+        font-size: 60px;
+    }
+    .small {
+        font-size: 45px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .title {
+        font-size: 55px;
+    }
+    .small {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .title {
+        font-size: 48px;
+    }
+    .small {
+        font-size: 36px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .title {
+        font-size: 36px;
+    }
+    .small {
+        font-size: 32px;
+    }
+}
+
+@keyframes openclose {
+    0% {
+        width: 0;
+    }
+    5% {
+        width: 0;
+    }
+    15% {
+        width: 230px;
+    }
+    30% {
+        width: 230px;
+    }
+    33% {
+        width: 0;
+    }
+    35% {
+        width: 0;
+    }
+    48% {
+        width: 190px;
+    }
+    62% {
+        width: 190px;
+    }
+    66% {
+        width: 0;
+        text-indent: 0;
+    }
+    71% {
+        width: 0;
+        text-indent: 5px;
+    }
+    86% {
+        width: 285px;
+    }
+    95% {
+        width: 285px;
+    }
+    98% {
+        width: 0;
+        text-indent: 5px;
+    }
+    100% {
+        width: 0;
+        text-indent: 0;
+    }
+}

@@ -1,0 +1,145 @@
+.footer {
+    width: 100%;
+    background-color: var(--color-white);
+    color: var(--color-black);
+    padding-top: 5%;
+    padding-bottom: 30px;
+    padding-inline: 5%;
+    transition: all 0.5s ease-in;
+}
+
+.top {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.bottom {
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 100;
+}
+
+.topCol {
+    width: 30%;
+    height: fit-content;
+}
+
+.topMid {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    overflow: hidden;
+}
+
+.topLast {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.logo {
+    width: 50%;
+    height: auto;
+    right: 0;
+    animation: respiration 9s linear infinite;
+}
+
+.locText1, .locText2, .locText3 {
+    transition: all 0.2s ease-in;
+}
+
+.topFirst:hover {
+    cursor: pointer;
+
+    .locText1 {
+        transform: translateX(10px);
+        transition: all 0.2s ease-out;
+    }
+    .locText2 {
+        transform: translateX(20px);
+        transition: all 0.2s ease-out;
+    }
+    .locText3 {
+        transform: translateX(30px);
+        transition: all 0.2s ease-out;
+    }
+}
+
+.picto {
+    width: 14px;
+    height: 14px;
+    margin-right: 10px;
+}
+
+.hoverText {
+    transform: translateX(-24px);
+    transition: all 0.2s ease-out;
+}
+
+.hoverText:hover {
+    transform: translateX(10px);
+    transition: all 0.2s ease-out;
+    cursor: pointer;
+}
+
+.a:hover {
+    margin-left: 20px;
+}
+
+.strong {
+    font-weight: 500;
+}
+
+@media screen and (max-width: 1300px) {
+    .top, .bottom {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .top, .bottom {
+        font-size: 13px;
+    }
+    .logo {
+        width: 30%;
+    }
+    .hoverText {
+        transform: translateX(0px);
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .top {
+        display: block;
+    }
+    .topCol {
+        margin-inline: auto;
+        width: 60%;
+        margin-bottom: 20px;
+    }
+    .logo {
+        right: unset;
+    }
+    .topLast {
+        justify-content: center;
+    }
+}
+
+@keyframes respiration {
+    0% {
+        transform: scale(1) rotate(-0deg);
+    }
+
+    60% {
+        transform: scale(0.9) rotate(-3deg);
+    }
+
+    100% {
+        transform: scale(1) rotate(-0deg);
+    }
+}

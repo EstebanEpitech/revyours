@@ -1,0 +1,111 @@
+
+.button {
+
+    background-color: var(--color-white);
+    border: 1px solid transparent;
+    transition: all 0.25s ease-out;
+    min-width: 150px;
+    width: fit-content;
+    padding: 0.5rem 1rem;
+    display: inline-flex;
+    gap: 0.5rem;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+    justify-content: center;
+    font-size: 30px;
+    color: var(--color-black);
+    text-align: center;
+    line-break: auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.button:hover {
+    transition: all 0.20s ease-out;
+    color: var(--color-white);
+    background-color: transparent;
+    border: 1px solid var(--color-white);
+    
+    .arrowSpan {
+        transform: translateX(25px);
+        transition: all 0.3s ease-in;
+    }
+
+    .arrowSpan > i {
+        color: var(--color-white);
+        transition: all 0.3s ease-in;
+    }
+}
+
+.arrowBox {
+    width: 20px;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    justify-content: flex-end;
+    gap: 5px;
+}
+
+.arrowSpan > i {
+    color: var(--color-black);
+    width: 18px;
+    height: auto;
+    font-size: 16px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.arrowSpan {
+    transition: all 0.2s ease-in;
+}
+
+@media screen and (max-width: 2400px) {
+    .button {
+        font-size: 26px;
+    }
+    .arrowSpan > i {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 2200px) {
+    .button {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 2000px) {
+    .button {
+        font-size: 20px;
+    }
+    .arrowSpan > i {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .button {
+        font-size: 16px;
+    }
+    .arrowSpan > i {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .button {
+        font-size: 14px;
+        min-width: 100px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .button {
+        font-size: 12px;
+        min-width: unset;
+    }
+    .arrowSpan > i {
+        font-size: 10px;
+    }
+}
+

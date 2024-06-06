@@ -1,0 +1,56 @@
+.container {
+    padding: 0;
+    color: var(--black);
+}
+
+.content {
+    padding: 6rem 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: start;
+}
+
+.mainTitle {
+    color: var(--secondary);
+    font-size: 2rem;
+    font-weight: 600;
+    border-bottom: 2px solid var(--secondary);
+    width: fit-content;
+    margin-inline: auto;
+    letter-spacing: -2px;
+    margin-bottom: 3rem;
+}
+
+.detailTitle, .sectionTitle {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.detailTitle {
+    margin: 0;
+}
+
+.sectionTitle {
+    color: var(--secondary);
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+}
+
+.content > p {
+    text-align: start;
+    margin-top: 0.225rem;
+    margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 1300px){
+    .content {
+        padding: 6rem 20%;
+    }
+}
+
+@media screen and (max-width: 990px){
+    .content {
+        padding: 6rem 10%;
+    }
+}

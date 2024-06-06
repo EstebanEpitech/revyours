@@ -1,0 +1,76 @@
+.container {
+    width: 80%;
+    display: flex;
+    margin-inline: auto;
+    margin-block: 50px;
+    margin-top: 10%;
+}
+
+.textColumn {
+    width: 50%;
+    margin-top: 5%;
+    overflow: hidden;
+}
+
+.cardColumn {
+    width: 50%;
+}
+
+.textBox {
+    width: 90%;
+    margin-top: 50px;
+    font-weight: 200;
+    font-size: 32px;
+}
+
+.textBox > strong {
+    font-weight: 600;
+}
+
+@media screen and (max-width: 2600px) {
+    .textBox {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 2400px) {
+    .textBox {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 2000px) {
+    .textBox {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .textBox {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+    .textColumn {
+        width: 80%;
+    }
+    .cardColumn {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .textColumn {
+        overflow: visible;
+    }
+    .textBox {
+        font-size: 12px;
+    }
+}

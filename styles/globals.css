@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Sora&display=swap');
+
+@font-face {
+  font-family: 'Mostra Nuova';
+  src: url('../public/fonts/Mostra_Nuova.otf');
+}
+
+@font-face {
+  font-family: 'Avenir';
+  src: url('../public/fonts/Avenir_Regular.ttf');
+}
+
+:root {
+  --color-primary: #00060E;
+  --color-secondary: #a5845e;
+  --color-tertiary: #000d1c;
+  --color-grey: #393838;
+  --color-dark-grey: #232323;
+  
+  --color-white: rgba(243, 248, 255);
+  --color-black: #00060E;
+
+  --font-small-size: 1rem;
+  --font-medium-size: 2rem;
+  --font-large-size: 3rem;
+
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: var(--color-black);
+  color: var(--color-white);
+}
+
+@media screen and (max-width: 1600px) {  html { font-size: 82.5%; }  }
+@media screen and (max-width: 1200px) {  html { font-size: 77.5%; }  }
+@media screen and (max-width: 1024px) {  html { font-size: 72.5%; }  }
+@media screen and (max-width: 768px) {  html { font-size: 62.5%; }  }
+@media screen and (max-width: 480px) {  html { font-size: 56.5%; }  }
+@media screen and (max-width: 320px) {  html { font-size: 46.5%; }  }

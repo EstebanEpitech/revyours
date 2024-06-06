@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.pragma-team.com
+
+# Sitemaps
+Sitemap: https://www.pragma-team.com/sitemap.xml
