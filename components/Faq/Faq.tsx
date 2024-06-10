@@ -15,7 +15,7 @@ export default function Faq(){
             <div className={styles.flex}>
                 {faq.map((index, value) => {
                     return (
-                        <div>
+                        <div key={"questionRow-" + value}>
                             <div className={styles.questionBox} onClick={() => setSelected(selected === value ? -1 : value)}>
                                 <div className={styles.question}>
                                     <div className={styles.caret}><i className="fa fa-info"></i></div>

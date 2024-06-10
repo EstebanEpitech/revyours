@@ -27,7 +27,7 @@ export default function PricePanel(){
                     <div className={``}><span className={styles.picto}><i className="fa fa-user"></i></span>On répond à vos questions</div>
                 </div>
                 <div>
-                    <IconButton href="" children={"Acheter maintenant"}/>
+                    <IconButton href="" children="Acheter maintenant"/>
                 </div>
             </div>
         </div>
