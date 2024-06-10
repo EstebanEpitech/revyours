@@ -1,33 +1,33 @@
 export const techs = [
     {
         logo: "csharp",
-        name: "c#",
-        desc: "Roslyn, Velocity"
+        name: "Loreum title",
+        desc: "Loreum ipsum description daviscocet lapasda escae jest loradis"
     },
     {
         logo: "dotnet",
-        name: ".net",
-        desc: "Application web, gestion de données"
+        name: "Loreum title",
+        desc: "Loreum ipsum description daviscocet lapasda escae jest loradis"
     },
     {
         logo: "java",
-        name: "java",
-        desc: "Spring, Spring Boot, Hibernate, Freemarker"
+        name: "Loreum title",
+        desc: "Loreum ipsum description daviscocet lapasda escae jest loradis"
     },
     {
         logo: "spring",
-        name: "Spring",
-        desc: "IoC"
+        name: "Loreum title",
+        desc: "Loreum ipsum description daviscocet lapasda escae jest loradis"
     },
     {
         logo: "cpp",
-        name: "c++",
-        desc: "Unreal"
+        name: "Loreum title",
+        desc: "UnLoreum ipsum description daviscocet lapasda escae jest loradisreal"
     },
     {
         logo: "js",
-        name: "JavaScript",
-        desc: "JQuery, React, NodeJs, NextJs"
+        name: "Loreum title",
+        desc: "Loreum ipsum description daviscocet lapasda escae jest loradis"
     },
 
 ]
