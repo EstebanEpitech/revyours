@@ -18,12 +18,14 @@ export default function Footer(){
                 </div>
                 <div className={`${styles.topCol} ${styles.topMid}`}>
                     <div>
-                        <div className={`${styles.hoverText}`}><span className={styles.picto}><i className="fa fa-linkedin-square"></i></span>Mentions légales</div>
-                        <div className={`${styles.hoverText}`}><span className={styles.picto}><i className="fa fa-linkedin-square"></i></span>Conditions générales de ventes</div>
+                        <div>Renseignements généraux</div>
+                        <div className={`${styles.hoverText}`}><span className={styles.picto}><i className="fa fa-envelope-o"></i></span>
+                            <a href={"mailto:contact@revyours.com"} className={`${styles.hoverText} ${styles.strong}`}>contact@revyours.com</a>
+                        </div>
                     </div>
                     <div>
-                    <div>Renseignements généraux</div>
-                        <a href={"mailto:contact@revyours.com"} className={`${styles.hoverText} ${styles.strong}`}>contact@revyours.com</a>
+                        <div className={`${styles.hoverText}`}><span className={styles.picto}><i className="fa fa-info"></i></span>Mentions légales</div>
+                        <div className={`${styles.hoverText}`}><span className={styles.picto}><i className="fa fa-info"></i></span>Conditions générales de ventes</div>
                     </div>
                 </div>
                 <div className={`${styles.topCol} ${styles.topLast}`}>

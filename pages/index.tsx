@@ -15,6 +15,8 @@ import Title from "../components/Title/Title";
 import Carousel from "../components/Carousel/Carousel";
 import Pillars from "../components/Pillars/Pillars";
 import IconButton from "../components/IconButton/IconButton";
+import PricePanel from "../components/PricePanel/PricePanel";
+import Faq from "../components/Faq/Faq";
 
 const Home: NextPage = () => {
     const router = useRouter();
@@ -49,6 +51,7 @@ const Home: NextPage = () => {
             <main>
                 <NavBar/>
                 <HomeHeader/>
+                <PricePanel/>
                 <Pillars/>
                 <ScrollAnimation animateIn="fadeInDown">
                     <Title
@@ -62,6 +65,17 @@ const Home: NextPage = () => {
                 </ScrollAnimation>
                 <Carousel directory="/techs/"/>
                 <Techs/>
+                <ScrollAnimation animateIn="fadeInDown">
+                    <Title
+                            title={"Vos "}
+                            word={"questions"}
+                            word2={"besoins"}
+                            word3={"demandes"}
+                            center={true}
+                            duration_time={5}
+                        />
+                </ScrollAnimation>
+                <Faq/>
                 <Footer/>
             </main>
         </>
